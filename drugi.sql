@@ -1,7 +1,6 @@
 CREATE TABLE proizvod(
 	idProizvoda INT IDENTITY(1,1) PRIMARY KEY,
 	nazivProizvoda NVARCHAR(100),
-	kolicina INT,
 	popustNaProizvod DECIMAL(3,2)
 );
 
